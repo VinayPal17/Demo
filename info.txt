@@ -1,4 +1,5 @@
-1. clone Repo from github
+1. clone Repo from github:-
+   >> git clone https://github.com/VinayPal17/Demo.git
 
 2. status:-
    >>Untracked - New file
