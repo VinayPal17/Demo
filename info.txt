@@ -1,0 +1,12 @@
+1. clone Repo from github
+
+2. status:-
+   >>Untracked - New file
+   >>Modified - New changes 
+   >>staged - case between modification and commit (add)
+   >>Unchanged - no changes 
+
+3. Add & commit:-
+
+    add - git add <file  name> (use "." to add all file at once)
+    commit - git commit -m "some messages"
