@@ -11,3 +11,14 @@
 
     add - git add <file  name> (use "." to add all file at once)
     commit - git commit -m "some messages"
+
+4.push:-
+   git push origin main (main -> branch name)    
+
+5. creatr new branch :-
+
+   git checkout -b "branchName"  
+
+6. switch the branch :-
+
+    git checkout -b "branchNameToBeOpene" 
