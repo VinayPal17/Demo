@@ -14,6 +14,8 @@
 
 4.push:-
    git push origin main (main -> branch name)    
+   git push -u origin main (when we need to push multiple files in the same repo , first use this command) then ,we need use only
+   git push
 
 5. creatr new branch :-
 
@@ -22,3 +24,11 @@
 6. switch the branch :-
 
     git checkout -b "branchNameToBeOpene" 
+
+7. Mandatory commands:-
+   git init (used to create new git repo)
+   git remote add origin <repoLink>    (Eg . to establish connection with repo)
+
+   git remote -v (to verify remote)
+   git branch (to check branch)
+   git branch -M main (to rename branch)
