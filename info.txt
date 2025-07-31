@@ -17,18 +17,57 @@
    git push -u origin main (when we need to push multiple files in the same repo , first use this command) then ,we need use only
    git push
 
-5. creatr new branch :-
 
-   git checkout -b "branchName"  
-
-6. switch the branch :-
-
-    git checkout -b "branchNameToBeOpene" 
-
-7. Mandatory commands:-
+5. Mandatory commands:-
    git init (used to create new git repo)
    git remote add origin <repoLink>    (Eg . to establish connection with repo)
 
    git remote -v (to verify remote)
+
+6. Brench Commands:-
+
    git branch (to check branch)
    git branch -M main (to rename branch)
+   git checkout -b "branchName"  (to create new branch)
+   git checkout  "branchNameToBeOpene" (to navigate between branch)
+   git checkout -d "branchNameToBeDelete"
+
+7. Merging code:-
+
+>>way 1   (from terminal)
+   git diff <branchNameToBeCompare> (to compare branch,commits,files etc)
+   git merge <branchName>      (to merge 2 branches)
+>>way 2 (from github)
+   create a PR
+
+8.Pull Commands:-
+>>used to fetch and download content from a remote repo and immediately update the local repo to match the content.
+
+  git pull origin main
+
+9.Resolving Merge Conflicts :-
+  >> An event  that take place when Git is unable to automatically resolve difference in code between two commits.
+  >>For Ex. - made changes on the same line.
+
+10.Undo-ing changes:-
+
+>>case 1 : staged changes (add but not commit)
+
+   git reset <fileName>       (undo specific file or file changes) 
+   git reset (undo reset all changes)
+
+>>case 2: commited changes (for one commit)
+
+   git reset HEAD~1           (HEAD~1 is latest commit or changes) (take changes from Unchanged to staged)
+
+>>case 3: commited changes (for many commit)
+
+   (hash is just like a reference code of preious changes)
+
+   git reset <commit hash> (used to undo changes in github(remote repo))
+
+   git reset --hard <commit hash>  (used to undo changes in local repo)
+
+
+
+11. FORK:- used to create rouhg copy of other projects file to work on it
